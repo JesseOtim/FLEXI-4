@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(./images/frances-gunn-QcBAZ7VREHQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: green;
+  }
+  
+  .result {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-rows: auto auto;  */
+    justify-content: center;
+    /* border: 1px solid darkgreen; */
+    align-items: center;
+    gap: 10px;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30%;
+    background-color: orangered;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+      color: black;
+    }
+  
+    button {
+      width: 40%;
+      height: 40px;
+      font-size: 14em;
+      display: block;
+      margin: 20px auto;
+      font-size: 16px;
+      border: none;
+      border-radius: 30%;
+      background-color: orangered;
+    }
+  }
+  
